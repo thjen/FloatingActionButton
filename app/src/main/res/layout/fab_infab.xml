@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/photo"
+        app:backgroundTint="#00a452"
+        android:id="@+id/fabPhoto"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="86dp"
+        android:visibility="invisible"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/delete"
+        app:backgroundTint="#db00ea"
+        android:id="@+id/fabDelete"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="86dp"
+        android:layout_marginRight="16dp"
+        android:visibility="invisible"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/plus"
+        app:backgroundTint="#0091a4"
+        android:id="@+id/fabPlus"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="67dp"
+        android:layout_marginRight="70dp"
+        android:visibility="invisible"/>
+
+</FrameLayout>
